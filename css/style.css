@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    font-family: "Inter" , sans-serif;
+    color: #15163D;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: radial-gradient(circle at top left,#3957F1,white  20%);
+    background-repeat: no-repeat ;
+     
+}
+nav, header, section{
+    display: flex;
+    justify-content: space-between;
+}
+
+section.testimonios{
+    flex-direction: column;
+    align-items: center;
+}
+
+nav, header, main{
+    width: 83.33%;
+    margin:auto;
+}
+
+.texto{
+width: 40%;
+}
+
+.imagen{
+    width: 50%;
+
+}
+
+.imagen img{
+    width: 100%;
+}
+
+h1{
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-bottom: 40px;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 27.5px;
+    margin-bottom: 50px ;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.item-card{
+    background-color: #EFF2FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    padding: 40px 60px;
+    
+}
+
+.card-texto{
+    text-align: center;
+}
+
+nav{
+    padding: 40px 0 80px 0;
+}
+
+section{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+#menu a{
+text-decoration: none;
+
+}
+.card-nombre{
+font-size: 18px;
+font-weight: 400;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.card-testimonio{
+    line-height: 20.8px;
+}
+
+.card-img{
+    width: 70%;
+    border: solid black;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.card-img img{
+    width: 100% ;
+}
+.info-footer{
+    display: flex;
+    gap: 130px;
+}
+
+footer{
+    background: #15163D;
+    padding: 50px 100px 20px;
+    width: 100%;
+    
+}
+footer p{
+    color: white;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 18px;
+    
+}
+footer ul li{
+    list-style: none;
+    color: white;   
+   
+}
+footer ul {
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.derecho p{
+    font-weight: 300;
+    text-align: center;
+    margin: 50px 0 0 0;
+    font-size: 16px;
+}
+
+button{
+    border-radius: 8px;
+    border: none;
+    background-color: #04146C;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 0px 50px;
+    height: 48px;
+    color: white;
+}
+
